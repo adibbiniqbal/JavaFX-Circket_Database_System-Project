@@ -40,7 +40,6 @@ public class Player {
         return Name;
     }
 
-
     public String getCountry() {
         return Country;
     }
@@ -67,50 +66,6 @@ public class Player {
 
     public int getWeeklySalary() {
         return WeeklySalary;
-    }
-
-    public void setName(String name) {
-        Name = name;
-    }
-
-    public void setCountry(String country) {
-        Country = country;
-    }
-
-    public void setAge(int age) {
-        Age = age;
-    }
-
-    public void setHeight(double height) {
-        Height = height;
-    }
-
-    public void setClub(String club) {
-        Club = club;
-    }
-
-    public void setPosition(String position) {
-        Position = position;
-    }
-
-    public void setNumber(int number) {
-        Number = number;
-    }
-
-    public void setWeeklySalary(int weeklySalary) {
-        WeeklySalary = weeklySalary;
-    }
-
-    public void display() {
-        System.out.printf("Name: %s, Country: %s, Age: %d, Height: %.2f meters, Club: %s, Position: %s, Jersey Number: %s, Weekly Salary: %d\n",
-                Name,
-                Country,
-                Age,
-                Height,
-                Club,
-                Position,
-                Number == -1 ? "N/A" : Number,
-                WeeklySalary);
     }
 
 }

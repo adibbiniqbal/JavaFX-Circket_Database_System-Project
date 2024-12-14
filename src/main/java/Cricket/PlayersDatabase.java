@@ -86,15 +86,6 @@ public class PlayersDatabase {
         return true;
     }
 
-    private void displayPlayers(List<Player> Players) {
-        if (Players.isEmpty()) {
-            System.out.println("No such player exists!");
-        }
-        for (Player player : Players) {
-            player.display();
-        }
-        System.out.println();
-    }
 
     public List<Player> searchName(String name) {
         List<Player> result = new ArrayList<Player>();
@@ -139,10 +130,6 @@ public class PlayersDatabase {
     }
 
     public Map<String, Integer> countryPlayers() {
-//        System.out.println("\nCountry-wise Player Count:");
-//        for (Map.Entry<String, Integer> entry : countryPlayerCount.entrySet()) {
-//            System.out.println("Country: " + (entry.getKey().substring(0, 1).toUpperCase() + entry.getKey().substring(1).toLowerCase()) + ", Count: " + entry.getValue());
-//        }
         return countryPlayerCount;
     }
 
