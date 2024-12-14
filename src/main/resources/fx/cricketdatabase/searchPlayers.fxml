@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.cricketdatabase.HelloController">
+    <children>
+        <Button layoutX="645.0" layoutY="250.0" mnemonicParsing="false" onAction="#searchPlayerName" prefHeight="25.0" prefWidth="200.0" text="Search by Player Name">
+            <font>
+                <Font name="Damascus Regular" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="645.0" layoutY="302.0" mnemonicParsing="false" onAction="#searchCountryClub" prefHeight="25.0" prefWidth="200.0" text="Search by Country &amp; Club">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+        <Button layoutX="645.0" layoutY="400.0" mnemonicParsing="false" onAction="#searchPosition" prefHeight="25.0" prefWidth="200.0" text="Search by Position">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+        <Button layoutX="645.0" layoutY="350.0" mnemonicParsing="false" onAction="#searchSalaryRange" prefHeight="25.0" prefWidth="200.0" text="Search by Salary Range">
+         <font>
+            <Font name="Al Nile" size="15.0" />
+         </font></Button>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#12283c" height="730.0" layoutX="-6.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="310.0" />
+        <Text fill="WHITE" layoutX="65.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cricket ">
+            <font>
+                <Font name="October Condensed Tamil Heavy" size="48.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="65.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Players">
+            <font>
+                <Font name="October Condensed Tamil Heavy" size="48.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="65.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+            <font>
+                <Font name="October Condensed Tamil Heavy" size="48.0" />
+            </font>
+        </Text>
+      <Button layoutX="645.0" layoutY="450.0" mnemonicParsing="false" onAction="#searchCountryPlayerCount" prefHeight="25.0" prefWidth="200.0" text="Country-Wise Player Count">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="645.0" layoutY="500.0" mnemonicParsing="false" onAction="#switchMainMenu" prefHeight="25.0" prefWidth="200.0" text="Back to Main Menu">
+         <font>
+            <Font name="Al Nile" size="15.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

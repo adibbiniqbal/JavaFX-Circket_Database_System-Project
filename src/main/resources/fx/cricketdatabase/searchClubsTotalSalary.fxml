@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.cricketdatabase.SearchController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2a4e6f" height="154.0" layoutX="-37.0" layoutY="-40.0" stroke="BLACK" strokeType="INSIDE" width="1237.0" />
+        <TextField fx:id="clubTotalSalary" layoutX="40.0" layoutY="45.0" promptText="Enter Club">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button layoutX="251.0" layoutY="45.0" mnemonicParsing="false" onAction="#searchClubTotalSalary" text="Search" />
+        <Button layoutX="997.0" layoutY="45.0" mnemonicParsing="false" onAction="#clubSearchMenu" text="Back to Player Searching Menu" />
+      <Label fx:id="clubTotalSalaryLabel" layoutX="252.0" layoutY="348.0" prefHeight="66.0" prefWidth="687.0" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.cricketdatabase.AddPlayersController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="124.0" stroke="BLACK" strokeType="INSIDE" width="1200.0" />
+        <!-- Header Text -->
+        <Text fill="WHITE" layoutX="438.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Player">
+            <font>
+                <Font name="October Meetei Mayek Heavy" size="64.0" />
+            </font>
+        </Text>
+
+        <!-- Input Fields -->
+        <TextField fx:id="playerName" layoutX="146.0" layoutY="170.0" promptText="Enter Name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+
+        <TextField fx:id="playerCountry" layoutX="146.0" layoutY="220.0" promptText="Enter Country">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+
+        <TextField fx:id="playerAge" layoutX="146.0" layoutY="270.0" promptText="Enter Age">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+
+        <TextField fx:id="playerHeight" layoutX="146.0" layoutY="320.0" promptText="Enter Height (in meters)">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+
+        <TextField fx:id="playerClub" layoutX="146.0" layoutY="370.0" promptText="Enter Club">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+
+        <TextField fx:id="playerPosition" layoutX="146.0" layoutY="420.0" promptText="Enter Position ">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+
+        <TextField fx:id="playerNumber" layoutX="146.0" layoutY="470.0" promptText="Enter Player Number ">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+
+        <TextField fx:id="playerWeeklySalary" layoutX="146.0" layoutY="520.0" promptText="Enter Weekly Salary">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+
+        <!-- Buttons -->
+        <Button layoutX="196.0" layoutY="590.0" mnemonicParsing="false" onAction="#addPlayerButton" text="Add Player">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+
+        <Button layoutX="921.0" layoutY="589.0" mnemonicParsing="false" onAction="#backToMenuButton" text="Back to Main Menu">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+      <Label fx:id="prompt" layoutX="559.0" layoutY="394.0" prefHeight="96.0" prefWidth="615.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
