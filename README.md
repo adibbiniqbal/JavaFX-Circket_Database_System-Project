@@ -1,7 +1,7 @@
 
 # 🏏 JavaFX Cricket Database System
 
-A complete **Cricket Database Management System** built using **JavaFX**. This project was developed by **Adib Bin Iqbal** as a part of an academic software project, focusing on player management, team data, and real-time cricket score and statistics handling through an intuitive graphical user interface.
+A complete **Cricket Database Management System** built using **JavaFX**. This project was developed by **Adib Bin Iqbal** as a part of an academic software project, focusing on player management, team data handling through an intuitive graphical user interface.
 
 GitHub Repository: [https://github.com/adibbiniqbal/JavaFX-Circket_Database_System-Project](https://github.com/adibbiniqbal/JavaFX-Circket_Database_System-Project)
 
