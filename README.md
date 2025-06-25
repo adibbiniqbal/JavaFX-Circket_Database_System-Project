@@ -16,12 +16,6 @@ GitHub Repository: [https://github.com/adibbiniqbal/JavaFX-Circket_Database_Syst
 
 ---
 
-## 📽️ Demo
-
-👉 Demo coming soon (optional: link to video or screenshots)
-
----
-
 ## 🧰 Tech Stack
 
 - **Frontend**: JavaFX (JDK 23)
